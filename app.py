@@ -8,7 +8,7 @@ def home():
 
 @app.route('/about')
 def aboutus():
-    return "<h1>This is about us page</h1><p>This is a simple flask application</p>"
+    return "<h1>This is about us page</h1><p>This is a simple flask application version 2</p>"
 
 if __name__ == '__main__':
     app.run(debug=True)
